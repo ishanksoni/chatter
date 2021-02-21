@@ -1,0 +1,3 @@
+virenv
+__pycache__
+db.sqlite3
