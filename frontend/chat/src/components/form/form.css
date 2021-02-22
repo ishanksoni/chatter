@@ -1,0 +1,49 @@
+.box{
+    height: 300px;
+    text-align: center;
+    background-color: #d7e0fc;
+    max-width: 340px;
+    min-width: 340px;
+    padding: auto;
+    color: black;
+    /* margin-left: */
+}
+.inp-box{
+    outline: none;
+    width: 90%;
+    height: 15%;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    background-color: #282c34;;
+    color: white;
+}
+.button{
+    background-color:#282c34 ;
+    color: grey;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;;
+    font-family: cursive;
+}
+.button:hover{
+    box-shadow: 0 7px 7px rgb(161, 161, 161), 0 5px 5px rgb(255, 255, 255);
+}
+.inp-box:hover{
+    box-shadow: 0 7px 7px rgb(161, 161, 161), 0 5px 5px rgb(255, 255, 255);
+
+}
+
+@media only screen and (max-width: 800px) {
+    .box{
+        width:95%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .box{
+        width:90%;
+    }
+}
+
+
