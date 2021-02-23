@@ -10,10 +10,10 @@ function Content({
     function Func(value,index){
         if(index!=0){
             if(index%2==1){
-                return <li className="Card1"> <b className="user-name">{value.sender}:</b> {value.msg}</li>
+                return <li key = {index} className="Card1"> <b className="user-name">{value.sender}:</b> {value.msg}</li>
             }
             if(index%2==0){ 
-                return <li className ="Card2"> <b className="user-name">{value.sender}:</b> {value.msg}</li>
+                return <li key = {index} className ="Card2"> <b className="user-name">{value.sender}:</b> {value.msg}</li>
             }
         }
     }

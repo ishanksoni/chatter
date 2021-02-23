@@ -5,14 +5,14 @@
     width: 100%;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(31, 30, 30, 0.24);
     /* border-radius: 10px; */
-    overflow-y: hidden;
+    overflow-y:scroll;
 }
 ::-webkit-scrollbar {
     width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #bdcdff;
+    background: #8c99d6;
     border-radius: 10px;
 }
  
@@ -29,7 +29,7 @@
     border-radius: 10px;
     padding: 1.5px;
     background-color: rgb(184, 184, 255);
-    color:black;
+    color:#282c34;
     font-family: cursive;
     font-size: 15px;
 }
@@ -39,14 +39,14 @@
     border-radius: 10px;
     padding: 1.5px;
     background-color: rgb(184, 255, 184);
-    color:black;
+    color:#282c34;
     font-family: cursive;
     font-size: 15px;
 }
 .user-name{
     font-weight: bold;
     font-size: 15px;
-    color: black;
+    color: #282c34;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 li{
@@ -55,12 +55,12 @@ li{
 
 @media only screen and (max-width: 800px) {
     .Content{
-        width:80%;
+        width: 100px;;
     }
 }
 @media only screen and (max-width: 1200px) {
     .Content{
-        width:80%;
+        width:100%;
     }
 }
 
